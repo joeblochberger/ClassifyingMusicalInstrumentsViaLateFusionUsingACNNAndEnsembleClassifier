@@ -1,6 +1,4 @@
 %% Simulation forloop
-start=4;
-finish=5;
 for SimulationNum = start:finish
     tic
     %% set up training meta data from .txt file
@@ -110,9 +108,6 @@ for SimulationNum = start:finish
         end
     end
     %% Use parallel processing for training
-    % myCluster = parcluster;
-    % start(myCluster)
-    % wait(myCluster,'online');
     pp = parpool('IdleTimeout',inf);
     
     train_set_tall = tall(adsTrain);
