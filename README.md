@@ -1,1 +1,1 @@
-# ClassifyingMusicalInstrumentsViaCNN
+# ClassifyingMusicalInstrumentsViaLateFusionUsingACNNAndEnsembleClassifier
